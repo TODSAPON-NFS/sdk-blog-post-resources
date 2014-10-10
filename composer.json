@@ -1,0 +1,13 @@
+{
+    "name": "rb-cohen/sdk-blog-post-resources",
+    "description": "Scripts for following along with the SDK blog post at home",
+    "require": {
+        "chartblocks/php-rest-sdk": "~1.1."
+    },
+    "authors": [
+        {
+            "name": "Arron Woods",
+            "email": "aw@chartblocks.com"
+        }
+    ]
+}
