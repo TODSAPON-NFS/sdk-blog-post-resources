@@ -12,8 +12,8 @@ if (null === $dataSetId) {
 
 $rawTemperature = exec('usbtemp', $output, $return);
 if (0 !== $return) {
-    echo 'Unable to get temperature from probe' . PHP_EOL;
-    exit(1);
+    echo 'Unable to get temperature from probe, using fake temperature' . PHP_EOL;
+    $rawTemperature = rand(15, 25) . '.' . rand(0, 9) . 'C';
 }
 
 $timestamp = time();
