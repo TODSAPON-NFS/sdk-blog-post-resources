@@ -1,6 +1,6 @@
 <?php
 
-require('./autoload.php');
+require(__DIR__ . '/autoload.php');
 $config = require('./config.php');
 
 $client = new \ChartBlocks\Client($config['client']);
